@@ -13,6 +13,8 @@ public class BiggerValueTest {
     BiggerValue bigVal = new BiggerValue();
     int actualResult = bigVal.getBiggerValue(a , b);
 
+    Assertions.assertEquals(expectedResult, actualResult);
+
     }
     @Test
     public void testBiggerValueNegativeNumHappyPath(){
@@ -23,6 +25,7 @@ public class BiggerValueTest {
         BiggerValue bigVal = new BiggerValue();
         int actualResult = bigVal.getBiggerValue(a , b);
 
+        Assertions.assertEquals(expectedResult, actualResult);
     }
     @Test
     public void testBiggerValueBigNumHappyPath(){
@@ -33,6 +36,7 @@ public class BiggerValueTest {
         BiggerValue bigVal = new BiggerValue();
         int actualResult = bigVal.getBiggerValue(a , b);
 
+        Assertions.assertEquals(expectedResult, actualResult);
     }
     @Test
     public void testBiggerValueZeroHappyPath(){
@@ -43,6 +47,7 @@ public class BiggerValueTest {
         BiggerValue bigVal = new BiggerValue();
         int actualResult = bigVal.getBiggerValue(a , b);
 
+        Assertions.assertEquals(expectedResult, actualResult);
     }
 
 
