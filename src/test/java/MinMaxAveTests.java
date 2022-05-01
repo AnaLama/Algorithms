@@ -68,5 +68,16 @@ public class MinMaxAveTests {
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
+    @Test
+    public void testMinMaxAveInd1NegativeScenario(){
+        int[]array = {1, 2, 3, 4, 5};
+        int ind1 = 1;
+        int ind2 = 5;
+        double[] expectedResult = null;
 
+        MinMaxAve minMAx = new MinMaxAve();
+        double[] actualResult = minMAx.minMaxAve(array, ind1, ind2);
+
+        Assertions.assertArrayEquals(expectedResult, actualResult);
+    }
 }

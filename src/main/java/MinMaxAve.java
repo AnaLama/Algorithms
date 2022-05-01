@@ -3,7 +3,7 @@ public class MinMaxAve {
 // который содержит минимальное значение, максимальное значение,  и среднее среди всех значений между 2-мя индексами.
 
     public double[] minMaxAve(int[] array, int ind1, int ind2) {
-        if (array.length > 0 && ind1 < ind2 && ind1 >= 0) {
+        if (array.length > 0 && ind1 < ind2 && ind1 >= 0 && ind2 < array.length) {
             int max = Integer.MIN_VALUE;
             int min = Integer.MAX_VALUE;
             int sum = 0;

@@ -5,10 +5,14 @@ public class AreNumbersEqual {
 //1, если первое число больше второго
     public int areNumbersEqual(int a, int b) {
         if (a == b) {
+
             return 0;
         } else if (a < b) {
+
             return -1;
-        } else return 1;
+        } else
+
+            return 1;
     }
 
 }
