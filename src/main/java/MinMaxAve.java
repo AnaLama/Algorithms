@@ -12,7 +12,7 @@ public class MinMaxAve {
 
             for (int i = ind1; i <= ind2; i++) {
                 sum += array[i];
-                aver = sum / ((ind2 - ind1) + 1);
+                aver = sum / (ind2 - ind1) + 1;
                 minMaxAvArray[2] = aver;
                 if (array[i] < min) {
                     min = array[i];
